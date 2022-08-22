@@ -4,7 +4,7 @@ Tests use an SQLite database in memory.
 
 
 
-User model:
+### User model:
 
 -- id (BigInt)
 
@@ -14,7 +14,7 @@ User model:
 
 -- updated_at (dateTime)
 
-Post model:
+### Post model:
 
 -- id (BigInt)
 
@@ -26,6 +26,10 @@ Post model:
 
 -- updated_at (dateTime)
 
+
+---------------------
+
+### Our Query:
 
 We have more than 10,000 users that create new posts every day.
 
