@@ -2,20 +2,26 @@ You can run the test by `./vendor/bin/phpunit`
 
 Tests you an SQLite database in memory
 
-In this example we want to know
+In this example, we want to know
 
 
 User model:
 -- id (BigInt)
+
 -- username (VarChar 31, Unique)
+
 -- created_at (dateTime)
+
 -- updated_at (dateTime)
 
 Post model:
 -- id (BigInt)
 -- title (VarChar 255)
+
 -- user_id (reference to user ID)
+
 -- created_at (dateTime)
+
 -- updated_at (dateTime)
 
 
